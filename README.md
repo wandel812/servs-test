@@ -18,7 +18,7 @@ There are already predefined API calls (`src/api/pokemon.api.ts`) to make reques
 
 It’s **bad** practice to use [*any*](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#any) or to not use types at all in typescript, so try to make typings for all your code.
 
-Screenshots in the `design` folder can be used as a reference for you, but you can make your own design if you want. Just do it with CSS, not with a predefined component library like MaterialUI or Bootstrap.
+Screenshots in the `design` folder can be used as a reference for you, but you can make your own design if you want. Just do it with CSS (css modules, scss, tailwind, etc.), not with a predefined component library like MaterialUI or Bootstrap.
 
 ## Useful Links
 
