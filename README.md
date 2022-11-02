@@ -9,6 +9,10 @@ The application should fetch data from [Pokemon API](https://pokeapi.co/docs/v2)
 * Create a view for the list of the pokemons on the main page (site.com/)
 * Create a view for a single pokemon on another page (site.com/{id})
 
+### Extras (optional)
+* Pokemon avatars not provided, so you can find them and add to your project or just use some placeholder api like [this](https://ui-avatars.com/) or [this](https://www.stefanjudis.com/blog/apis-to-generate-random-user-avatars/).
+* Deploy it somewhere (e.g. [Vercel](https://vercel.com/), [GitHub Pages](https://pages.github.com/), [Netlify](https://www.netlify.com/), [Heroku](https://www.heroku.com/), [Firebase](https://firebase.google.com/), etc.)
+
 ## Info
 There are already predefined API calls (`src/api/pokemon.api.ts`) to make requests to the Pokemon API.
 
