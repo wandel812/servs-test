@@ -4,6 +4,8 @@ Assignment should be made with [React](https://reactjs.org/docs/getting-started.
 
 Just use this repository as a [**template**](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) to generate repo in your account and make an assignment in it.
 
+Create a **new** branch, make the task in it, then make a **Pull Request** to the **main** branch, so we are able to review it and leave some comments if needed.
+
 ## Task
 The application should fetch data from [Pokemon API](https://pokeapi.co/docs/v2) and render it:
 * Create a view for the list of the pokemons on the main page (site.com/)
