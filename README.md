@@ -26,7 +26,7 @@ Screenshots in the `design` folder can be used as a reference for you, but you c
 
 Routing in React - https://reactrouter.com/en/main
 
-Typescript interfaces to make nice typings - https://www.typescriptlang.org/docs/handbook/interfaces.html
+Typescript object types to make nice typings - https://www.typescriptlang.org/docs/handbook/2/objects.html
 
 Documentation for the API:
 * https://pokeapi.co/docs/v2#resource-listspagination-section - to get a list
