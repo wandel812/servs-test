@@ -1,4 +1,4 @@
-# Test Assignment Frontend
+# SerVC Test Assignment Frontend React
 
 Assignment should be made with [React](https://reactjs.org/docs/getting-started.html) framework.
 
