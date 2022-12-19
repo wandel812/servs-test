@@ -8,7 +8,7 @@ Create a **new** branch, make the task in it, then make a **Pull Request** to th
 
 ## Task
 The application should fetch data from [Pokemon API](https://pokeapi.co/docs/v2) and render it:
-* Create a view for the list of the pokemons on the main page (site.com/)
+* Create a view for the list of the pokemons on the main page with a pagination (site.com/)
 * Create a view for a single pokemon on another page (site.com/{id})
 
 ### Extras (optional)
