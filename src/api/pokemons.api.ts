@@ -1,26 +1,22 @@
-import axios from 'axios';
+import axios from "axios";
 
-const api = axios.create({
-  baseURL: 'https://pokeapi.co/api/v2',
+const pokemonApi = axios.create({
+  baseURL: "https://pokeapi.co/api/v2",
 });
 
-/**
-   * Fetch the list of pokemons from API
-   * @param offset how many records to skip
-   * @param limit how many records to return
-   * @returns list of pokemons
-   * 
-   * @url https://pokeapi.co/docs/v2#resource-listspagination-section
-   */
-export const getList = (offset = 20, limit = 20) =>
-  api.get(`/pokemon?offset=${offset}&limit=${limit}`);
+export const listOffset = 20;
+export const listLimit = 20;
+export const getList = async (
+  page: number
+): Promise<PaginationDataType<PokemonListItemDataType>> => {
+  const curOffset = page * listOffset;
+  const response = await pokemonApi.get(
+    `/pokemon?offset=${curOffset}&limit=${listLimit}`
+  );
+  return response.data;
+};
 
-/**
- * Fetch a single pokemon from API
- * @param id id or name of the pokemon
- * @returns pokemon
- * 
- * @url https://pokeapi.co/docs/v2#pokemon
- */
-export const getOne = (id: number | string) =>
-  api.get(`/pokemon/${id}`);
+export const getOne = async (id: number | string): Promise<PokemonDataType> => {
+  const response = await pokemonApi.get(`/pokemon/${id}`);
+  return response.data;
+};
