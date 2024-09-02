@@ -4,6 +4,7 @@ import { QueryClient, useQuery } from "@tanstack/react-query";
 import { Params, useNavigate, useParams } from "react-router-dom";
 import { Loader } from "../../components/Loader";
 import { Button } from "../../components/Button";
+import { PokemonDataType } from "../../api/types";
 
 const pokemonOneQuery = (name: string) => ({
   queryKey: ["pokemon", "one", name],
