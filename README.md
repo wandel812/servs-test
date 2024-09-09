@@ -1,3 +1,6 @@
+# Link to the project
+https://wandel812.github.io
+
 # SerVC Test Assignment Frontend React
 
 Assignment should be made with [React](https://reactjs.org/docs/getting-started.html) framework.
